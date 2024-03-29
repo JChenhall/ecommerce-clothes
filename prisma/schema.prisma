@@ -15,7 +15,7 @@ datasource db {
 }
 
 //npx prisma store to see in browser
-model store{
+model Store{
   id        String @id @default(uuid())
   name      String
   userId    String
